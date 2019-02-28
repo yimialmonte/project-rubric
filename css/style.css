@@ -86,3 +86,100 @@ section a {
     color: #2d3c49;
     font-size: 35px;
 }
+
+
+@media screen and (max-width: 990px) {
+    
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 65px;
+        margin-top: 16px;
+        padding: 0 10px;
+    }
+    
+    .logo {
+        width: 30%;;
+    }
+    
+    .brand-logo {
+        width: 45%;
+        justify-content: flex-start;
+    }
+    
+    hr {
+        width: 100%;
+        border: 2px solid #7d97ad;
+    }
+    
+    .title {
+        width: 55%;
+        justify-content: flex-end;
+    }
+    
+    h1, p {
+        text-transform: uppercase;
+        text-align: end;
+    }
+
+    p {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    
+    h1 {
+        font-size: 20px;
+        margin: 5px 0 0 0;
+    }
+    
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .main-image img{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .main-content section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main-content section:nth-child(2) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .main-content img {
+        width: 100%;
+    }
+
+    section a {
+        font-size: 25px;
+    }
+    
+  }
