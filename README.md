@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 - clone the project
-``` git colne ```
+``` git clone ```
 
 ## Running the project
 
