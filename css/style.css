@@ -86,10 +86,7 @@ section a {
     color: #2d3c49;
     font-size: 35px;
 }
-
-
   
-    
 @media (min-width: 320px) and (max-width: 576px) {
     
     html, body {
@@ -98,17 +95,10 @@ section a {
     }
 
     main {
-        display: flex;
-        flex-wrap: wrap;
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
     
     header {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
         height: 65px;
         margin-top: 16px;
         padding: 0 10px;
@@ -120,24 +110,12 @@ section a {
     
     .brand-logo {
         width: 45%;
-        justify-content: flex-start;
-    }
-    
-    hr {
-        width: 100%;
-        border: 2px solid #7d97ad;
     }
     
     .title {
         width: 55%;
-        justify-content: flex-end;
     }
     
-    h1, p {
-        text-transform: uppercase;
-        text-align: end;
-    }
-
     p {
         font-size: 14px;
         margin-top: 7px;
@@ -155,14 +133,8 @@ section a {
     }
 
 
-    .main-image img{
-        width: 100%;
+    .main-image img {
         margin: 0;
-    }
-    
-    .main-content {
-        display: flex;
-        flex-wrap: wrap;
     }
     
     .main-content section{
@@ -188,43 +160,15 @@ section a {
 
   @media (min-width: 577px) and (max-width: 991px) {
     main {
-        display: flex;
-        flex-wrap: wrap;
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     header {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
         height: 100px;
-        margin-top: 5px;
     }
     
     .logo {
         width: 20%;;
-    }
-    
-    .brand-logo {
-        width: 50%;
-        justify-content: flex-start;
-    }
-    
-    hr {
-        width: 100%;
-        border: 2px solid #7d97ad;
-    }
-    
-    .title {
-        width: 50%;
-        justify-content: flex-end;
-    }
-    
-    h1, p {
-        text-transform: uppercase;
-        text-align: end;
     }
     
     p {
@@ -241,15 +185,6 @@ section a {
         font-size: 28px;
         width: 100%;
         text-align: center;
-    }
-    .main-image img{
-        width: 100%;
-        margin: 15px 0;
-    }
-    
-    .main-content {
-        display: flex;
-        flex-wrap: wrap;
     }
     
     .main-content section{
@@ -270,4 +205,6 @@ section a {
     section a {
         font-size: 25px;
     }
+
    }
+   
